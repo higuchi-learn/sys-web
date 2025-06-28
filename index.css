@@ -8,9 +8,22 @@ body{
   background-color: white;
 }
 
+li {
+  list-style: none;
+}
+
+.wrapper{
+  width: 100%;
+}
+
+.contents_container{
+  width: 1024px;
+  margin: 0 auto;
+  padding: 0 44px;
+}
+
 header{
   background-color: rgb(210, 255, 255);
-  padding: 3px 10vw;
 }
 
 header img{
@@ -18,17 +31,18 @@ header img{
   height: auto;
 }
 
-main{
-  background-color: green;
-}
-
 footer{
-  background-color: blue;
+  background-color: #0000A0;
+  color: white;
 }
 
 footer h2{
-  color: white;
   text-align: center;
   padding: 10px;
 }
 
+.copyright{
+  text-align: center;
+  font-size: 10px;
+  padding: 3px 0;
+}
