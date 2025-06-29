@@ -31,6 +31,36 @@ header img{
   height: auto;
 }
 
+.information_container{
+  border: #00EDFF 3px solid;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.information_container h2{
+  text-align: center;
+  border-bottom: rgb(165, 165, 165) 1px solid;
+  padding-bottom: 10px;
+}
+
+.subject_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 4fr;
+  border-bottom: rgb(165, 165, 165) 1px solid;
+  padding: 5px 0;
+}
+
+.date{
+  text-align: center;
+}
+
+.genre{
+  text-align: center;
+  background-color: #00ffc3;
+  border-radius: 20px;
+  margin: 2px 20px;
+}
+
 footer{
   background-color: #0000A0;
   color: white;
