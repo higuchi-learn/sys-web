@@ -61,6 +61,66 @@ header img{
   margin: 2px 20px;
 }
 
+.section_left_container{
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  column-gap: 30px;
+}
+
+.section_right_container{
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  column-gap: 30px;
+}
+
+.sentence_container p{
+  padding: 4px 0;
+}
+
+.section_image{
+  align-content: center;
+}
+
+.section_image img{
+  width: 100%;
+  height: auto;
+}
+
+.sentence_container table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.sentence_container table tr{
+  border-top: rgb(165, 165, 165) 1px solid;
+  border-bottom: rgb(165, 165, 165) 1px solid;
+}
+
+.sentence_container table td{
+  padding: 4px 0;
+}
+
+.tech_container{
+  display: flex;
+}
+
+.tech_container ul{
+  padding-bottom: 1rem;
+}
+
+.tech_container li{
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-left: 24px;
+  text-indent: -22px;
+}
+
+.tech_container p{
+  align-content: end;
+  padding: 0;
+  width: 34px;
+}
+
 footer{
   background-color: #0000A0;
   color: white;
