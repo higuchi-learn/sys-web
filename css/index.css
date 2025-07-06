@@ -22,12 +22,13 @@ li {
 
 .contents_container{
   width: 1024px;
+  width: 100%;
   margin: 0 auto;
-  padding: 0 44px;
+  padding: 0 2rem;
 }
 
 header{
-  padding: 0 10px 0 44px;
+  padding: 0 10px 0 2rem;
   background-color: rgb(210, 255, 255);
   position: fixed;
   width: 100%;
@@ -276,18 +277,19 @@ footer h2{
   }
 }
 
-@media screen and (1024px < width <= 1440p){
+@media screen and (1024px < width <= 1440px){
   .contents_container{
-    width: 1024px;
+    width: 1010px;
   }
 }
 
 @media screen and (768px < width <= 1024px){
   .contents_container{
-    padding: 0 44px;
-    width: 100vw;
+    padding: 0 2rem;
+    width: 100%;
   }
   nav a{
     margin: 0 5px;
+    padding: 2px 8px;
   }
 }
